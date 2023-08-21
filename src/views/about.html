@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INSIDE OUT!</title>
+    <title>Outside In!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -12,10 +12,7 @@
 </head>
 <body>
     <header class="main-header">
-        <a href="/"><h1 class="title"><span>INSIDE</span> OUT<span>!</span></h1></a>
-        <div class="search-nav">
-            <input type="search" name="search" placeholder="Search.."><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
-        </div>
+        <a href="/"><h1 class="title"><span>OUTSIDE</span> IN<span>!</span></h1></a>
         <nav class="navbar">
             <ul>
                 <li>
@@ -26,6 +23,11 @@
                 </li>
             </ul>
         </nav>
+        <div class="search-nav">
+            <form action="/about">
+                <input type="search" name="search" placeholder="Search.." required><button class="search-button" type="submit" name="search-button"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></button></a>
+            </form>
+        </div>
     </header>
     <main>
         <section class="about">
@@ -39,10 +41,5 @@
             </div>
         </section>
     </main>
-    <footer>
-        <section class="footer-about">
-            <p>©2023 Inside Out!. All rights Reserved.</p>
-        </section>
-    </footer>
 </body>
 </html>
