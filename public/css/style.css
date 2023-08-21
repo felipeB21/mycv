@@ -13,23 +13,9 @@ body {
     position: relative;
     background-color: #182a47;
     backdrop-filter: blur(10px);
-    height: 100%;
+    height: 100vh;
 }
 
-main {
-    padding: 0px 30px;
-}
-.new-movies {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    width: 100%;
-    height: 100%;
-    border: solid 1px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .main-header {
     display: flex;
@@ -37,10 +23,7 @@ main {
     justify-content: space-evenly;
     height: 60px;
     width: 100vw;
-    background: linear-gradient(to bottom, #1b191b, #1e2b46);
-    box-shadow: 0px 7px 21px 2px rgba(143,123,123,0.75);
-    -webkit-box-shadow: 0px 3px 21px 2px rgba(143,123,123,0.75);
-    -moz-box-shadow: 0px 7px 21px 2px rgba(143,123,123,0.75);
+    background: linear-gradient(to bottom, #413541, #243352);
 }
 
 .main-header a {
@@ -64,8 +47,10 @@ main {
 }
 
 .navbar {
-    position: relative;
-    right: 340px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
 
 .navbar ul{
@@ -81,7 +66,7 @@ main {
 }
 
 .navbar li a:hover {
-    color: #a3999b;
+    color: rgb(133, 133, 238);
 }
 
 .search-box {
@@ -92,14 +77,30 @@ main {
 
 
 span {
-    color: rgb(59, 59, 238);
+    color: rgb(133, 133, 238);
     font-weight: bolder;
 }
 
 .title {
     color: azure;
     font-weight: 200;
+    font-size: 30px;
 }
+
+.movie-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.movie-show-1 {
+    width: 52vw;
+    height: 58vh;
+    z-index: 1;
+}
+
+
+/* about */
 
 .about {
     margin: 40px 0 20px 0;
